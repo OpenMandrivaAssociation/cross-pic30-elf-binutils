@@ -10,7 +10,7 @@ License:	GPL
 Group:		Development/Other
 URL:		http://ww1.microchip.com/downloads/en/DeviceDoc/mplabalc30v2_01.tgz
 Source0:	mplabalc30v2_01.tar.bz2
-BuildRequires:	byacc gcc4.1 gettext texinfo dos2unix
+BuildRequires:	byacc gcc gettext texinfo dos2unix
 Patch0:		pic30-binutils-makefile-in.diff.bz2
 Patch1:		cross-pic30-binutils-gcc4.patch.bz2
 
