@@ -28,7 +28,7 @@ find . -type f -exec dos2unix '{}' ';'
 %patch1 -p1 -b .gcc4
 
 %build
-CC=gcc-`gcc4.1-version` ./configure --target=pic30-elf --prefix=%{_prefix}
+CC=gcc-`gcc4.2-version` ./configure --target=pic30-elf --prefix=%{_prefix}
 %make tooldir=%{_prefix} all
 
 %install
