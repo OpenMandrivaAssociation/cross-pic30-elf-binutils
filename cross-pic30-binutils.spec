@@ -1,6 +1,6 @@
 %define name		cross-pic30-elf-binutils
 %define version		2.14.mplab.2.01
-%define release		%mkrel 2
+%define release		%mkrel 4
 
 Summary:	GNU Binary Utility Development Utilities
 Name:		%{name}
